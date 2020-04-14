@@ -36,6 +36,7 @@ def get_english_meaning(emoticons, japanese_sign)
  "Sorry, that emoticon was not found"
 end
 
+<<<<<<< HEAD
 require 'pry'
 def get_japanese_emoticon(emoticons, english_sign)
   # code goes here
@@ -50,6 +51,24 @@ if english_sign == file_path[k1][:english]
    end 
 "Sorry, that emoticon was not found"
 end
+=======
+#require 'pry'
+#def get_japanese_emoticon(emoticons, english_sign)
+  # code goes here
+#emoticons_sign = load_library(emoticons) 
+#emoticons_sign.each do |k1,v1|
+#binding.pry
+#if english_sign == emoticon_sign[k1][:english]
+
+  
+  #emoticon_sign[k1][:japanese]
+  
+     #end 
+   #end 
+
+#emoticons_sign[k1][:japanese]
+#end
+>>>>>>> d73d6d8ae3e4626a4a2af2519e1d955cba7fc081
 
  
 
